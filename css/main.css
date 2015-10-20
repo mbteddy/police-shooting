@@ -2,3 +2,31 @@
 #container {
 	height:800px;
 }
+.container {
+	background-color: white;
+}
+
+#title {
+	text-align: center;
+}
+
+#blue {
+	color: blue;
+}
+
+#red {
+	color: red;
+}
+
+#description {
+	text-align: center;
+}
+
+#row{
+	text-align: center;
+}
+
+th {
+	text-align: center;
+	width: 20%;
+}

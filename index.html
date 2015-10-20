@@ -24,13 +24,33 @@
   <body>
     <!-- You may want to put your title and additional informaiton here -->
     <div class="container">
+    <h1 id="title">Police Shooting</h1>
+    <table class="table table-striped" align: "center">
+        <tr id="row"> 
+          <th></th>
+          <th id="row">Black</th>
+          <th id="row">White</th>
+        </tr>
+        <tr id="row">
+          <th>Male</th>
+          <td id='blackMale'></td>
+          <td id='whiteMale'></td>
+        </tr>
+        <tr id="row">
+          <th>Female</th>
+          <td id='blackFemale'></td>
+          <td id='whiteFemale'></td>
+        </tr>
+      </table>
+       <p id="description">
+          This map shows the results of crowdsourced police shooting data form <a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202" target="_blank">Deadspin</a>. The color of the circle indicates if it <span id="blue">male</span> or <span id="red">female</span>.
+       </p>
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
-      <div id="container"></div>
+      <div id="container">    
+      </div>
     </div>
     <script>
-      
-      // This is where you should execute your drawMap function
-      
+        drawMap()
     </script>
   </body>
 </html>
